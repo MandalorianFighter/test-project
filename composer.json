@@ -1,0 +1,7 @@
+{
+    "name": "mandalorian/test",
+    "description": "making tests",
+    "require-dev": {
+        "webmozart/assert": "^1.10"
+    }
+}
