@@ -11,5 +11,3 @@ function capitalize($text)
     $restSubstring = mb_substr($text, 1);
     return "{$firstSymbol}{$restSubstring}";
 }
-
-

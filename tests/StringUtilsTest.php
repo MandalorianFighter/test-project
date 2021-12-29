@@ -3,7 +3,7 @@
 /**
  * Function, that makes first letter capital
  * php version 8.0.14
- * 
+ *
  * @category Tests
  * @package  Functions
  * @author   Yanush Polishchuk <yanush.polishchuk@gmail.com>
@@ -12,7 +12,9 @@
  * @link     https://www.linkedin.com/in/yanush-polishchuk-090b92178/
  * @since    2021-12-20
  */
+
 use Webmozart\Assert\Assert;
+
 use function StringUtils\capitalize;
 
 require "src/StringUtils.php";
