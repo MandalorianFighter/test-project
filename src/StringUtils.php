@@ -28,7 +28,7 @@ namespace StringUtils;
  *
  * @return string with capital first letter
  */
-function capitalize(string $text) : string
+function capitalize(string $text): string
 {
 
     /**
@@ -42,4 +42,3 @@ function capitalize(string $text) : string
     $restSubstring = mb_substr($text, 1);
     return "{$firstSymbol}{$restSubstring}";
 }
-
