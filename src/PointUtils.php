@@ -29,18 +29,18 @@ namespace PointUtils;
  *
  * @return int as a distance between two points
  */
-function calculateDistance(array $point1, array $point2) : int 
+function calculateDistance(array $point1, array $point2): int
 {
     /**
      * If points are empty, the function returns null
-     */    
-    
+     */
+
     if ($point1 === [] and $point2 === []) {
         return 0;
     }
-    
+
     [$x1, $y1] = $point1;
     [$x2, $y2] = $point2;
 
-    return ((($x2 - $x1)**2) + (($y2 - $y1)**2))**(1/2);
+    return ((($x2 - $x1) ** 2) + (($y2 - $y1) ** 2)) ** (1 / 2);
 }
