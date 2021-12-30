@@ -24,12 +24,12 @@ namespace PointUtils;
  * Description
  * Function, that calculates distance between two points
  *
- * @param array $point1 the array that contains coordinates of a point number one
- * @param array $point2 the array that contains coordinates of a point number two
+ * @param array<int, int> $point1 the array that contains coordinates of a point number one
+ * @param array<int, int> $point2 the array that contains coordinates of a point number two
  *
- * @return int as a distance between two points
+ * @return float as a distance between two points
  */
-function calculateDistance(array $point1, array $point2): int
+function calculateDistance(array $point1, array $point2): float
 {
     /**
      * If points are empty, the function returns null
