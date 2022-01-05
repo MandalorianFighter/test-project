@@ -13,7 +13,8 @@
 	"autoload": {
  	   "psr-4": {"": "src/"},
 	    "files": [
-	      "src/Points.php"
+	      "src/Points.php",
+	      "src/Segments.php"
 	    ]
 	  },
     "config": {
