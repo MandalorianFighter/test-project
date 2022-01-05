@@ -13,23 +13,24 @@
  * @since    2021-12-30
  */
 
+namespace Test\Project\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-//use function Segments\makeDecartPoint;
-//use function Segments\makeSegment;
-//use function Segments\getMidpointOfSegment;
-//use function Segments\getBeginPoint;
-//use function Segments\getEndPoint;
+use function Test\Project\Segments\makeDecartPoint;
+use function Test\Project\Segments\makeSegment;
+use function Test\Project\Segments\getMidpointOfSegment;
+use function Test\Project\Segments\getBeginPoint;
+use function Test\Project\Segments\getEndPoint;
 
 class SegmentsTest extends TestCase
 {
     public function testMainFlow(): void
     {
-        $segment = Segments\makeSegment(Segments\makeDecartPoint(3, 2), Segments\makeDecartPoint(0, 0));
+        $segment = makeSegment(makeDecartPoint(3, 2), makeDecartPoint(0, 0));
 
-        $this->assertEquals(['x' => 1.5, 'y' => 1], Segments\getMidpointOfSegment($segment));
-        $this->assertEquals(['x' => 3, 'y' => 2], Segments\getBeginPoint($segment));
-        $this->assertEquals(['x' => 0, 'y' => 0], Segments\getEndPoint($segment));
+        $this->assertEquals(['x' => 1.5, 'y' => 1], getMidpointOfSegment($segment));
+        $this->assertEquals(['x' => 3, 'y' => 2], getBeginPoint($segment));
+        $this->assertEquals(['x' => 0, 'y' => 0], getEndPoint($segment));
     }
 }

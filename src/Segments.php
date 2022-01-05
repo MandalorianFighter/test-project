@@ -16,7 +16,7 @@
  * @since    2021-12-30
  */
 
-namespace Segments;
+namespace Test\Project\Segments;
 
 /**
  * Implements makeDecartPoint().
