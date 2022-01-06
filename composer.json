@@ -16,7 +16,8 @@
 	      "src/Points.php",
 	      "src/Segments.php",
 	      "src/PointsInter.php",
-	      "src/Rectangle.php"
+	      "src/Rectangle.php",
+              "src/Rational.php"
 	    ]
 	  },
     "config": {
