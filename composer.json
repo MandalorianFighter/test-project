@@ -15,7 +15,8 @@
 	    "files": [
 	      "src/Points.php",
 	      "src/Segments.php",
-	      "src/PointsInter.php"
+	      "src/PointsInter.php",
+	      "src/Rectangle.php"
 	    ]
 	  },
     "config": {
