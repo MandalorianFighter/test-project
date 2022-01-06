@@ -14,7 +14,8 @@
  	   "psr-4": {"": "src/"},
 	    "files": [
 	      "src/Points.php",
-	      "src/Segments.php"
+	      "src/Segments.php",
+	      "src/PointsInter.php"
 	    ]
 	  },
     "config": {
